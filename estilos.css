@@ -1,0 +1,55 @@
+#containerMu{
+	display: inline;
+}
+.copyButton{
+	background-color: none;
+	border: 0px solid lightgray;
+	margin-left: 5%;
+}
+div[id*=template] {
+	background-color: lightgray;
+	padding: 2%;
+	margin: 1%;
+	border-radius: 5px;
+}
+#tabEli tbody {
+	padding: 5% !important;
+}
+label{
+	font-weight: bold;
+}
+button{
+	border: none;
+	background-color: #ffdddd;
+	color: black;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	border-radius:4%;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	outline: none;
+	cursor: pointer;
+	
+}
+
+button:hover {background-color: #dcc0c0; }
+
+button:active {
+	background-color: #dcc0c0;
+	box-shadow: 0 5px;
+	transform: translateY(2px);
+	border:none;
+}
+
+.simb{
+	padding: 0.5% 1.5% 0.5% 1.5%;
+}
+
+#enlaces{
+	display: inline;
+	padding: 2% !important;
+}
+.ocult{
+	margin-left: 10000px;
+	width:1%;
+}
